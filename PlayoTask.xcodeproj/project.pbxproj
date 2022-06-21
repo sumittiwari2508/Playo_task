@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDF1219A2861968C00F83F93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF121992861968C00F83F93 /* AppDelegate.swift */; };
+		EDF1219C2861968C00F83F93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF1219B2861968C00F83F93 /* SceneDelegate.swift */; };
+		EDF121A12861968C00F83F93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF1219F2861968C00F83F93 /* Main.storyboard */; };
+		EDF121A32861969000F83F93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF121A22861969000F83F93 /* Assets.xcassets */; };
+		EDF121A62861969000F83F93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF121A42861969000F83F93 /* LaunchScreen.storyboard */; };
+		EDF121B32861997100F83F93 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF121B22861997100F83F93 /* NewsModel.swift */; };
+		EDF121B52861997F00F83F93 /* NewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF121B42861997F00F83F93 /* NewsListViewController.swift */; };
+		EDF121B82861999000F83F93 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF121B62861999000F83F93 /* NewsTableViewCell.swift */; };
+		EDF121B92861999000F83F93 /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDF121B72861999000F83F93 /* NewsTableViewCell.xib */; };
+		EDF121BB28619F8200F83F93 /* NewsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF121BA28619F8200F83F93 /* NewsDetailsViewController.swift */; };
+		EDF121BE2861A50B00F83F93 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF121BD2861A50B00F83F93 /* CardView.swift */; };
+		EDF121C02861A52A00F83F93 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF121BF2861A52A00F83F93 /* Extensions.swift */; };
+		EFCD6A13387C3CA63AF5E04B /* Pods_PlayoTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0825E8490AAC0DCD200C98 /* Pods_PlayoTask.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		007ECEA57E0D66AE7773812E /* Pods-PlayoTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayoTask.release.xcconfig"; path = "Target Support Files/Pods-PlayoTask/Pods-PlayoTask.release.xcconfig"; sourceTree = "<group>"; };
+		2B0825E8490AAC0DCD200C98 /* Pods_PlayoTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayoTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF121962861968C00F83F93 /* PlayoTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayoTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF121992861968C00F83F93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDF1219B2861968C00F83F93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EDF121A02861968C00F83F93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDF121A22861969000F83F93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDF121A52861969000F83F93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDF121A72861969000F83F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF121B22861997100F83F93 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		EDF121B42861997F00F83F93 /* NewsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewController.swift; sourceTree = "<group>"; };
+		EDF121B62861999000F83F93 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		EDF121B72861999000F83F93 /* NewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
+		EDF121BA28619F8200F83F93 /* NewsDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailsViewController.swift; sourceTree = "<group>"; };
+		EDF121BD2861A50B00F83F93 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		EDF121BF2861A52A00F83F93 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FC038FCF216A37FB3BDC39CF /* Pods-PlayoTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayoTask.debug.xcconfig"; path = "Target Support Files/Pods-PlayoTask/Pods-PlayoTask.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDF121932861968C00F83F93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFCD6A13387C3CA63AF5E04B /* Pods_PlayoTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B8A520DE61550BCEA67357C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B0825E8490AAC0DCD200C98 /* Pods_PlayoTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED1361E0219E4DE9AD7E2F43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC038FCF216A37FB3BDC39CF /* Pods-PlayoTask.debug.xcconfig */,
+				007ECEA57E0D66AE7773812E /* Pods-PlayoTask.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EDF1218D2861968C00F83F93 = {
+			isa = PBXGroup;
+			children = (
+				EDF121982861968C00F83F93 /* PlayoTask */,
+				EDF121972861968C00F83F93 /* Products */,
+				ED1361E0219E4DE9AD7E2F43 /* Pods */,
+				5B8A520DE61550BCEA67357C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EDF121972861968C00F83F93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDF121962861968C00F83F93 /* PlayoTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDF121982861968C00F83F93 /* PlayoTask */ = {
+			isa = PBXGroup;
+			children = (
+				EDF121BC2861A4F600F83F93 /* Common Files */,
+				EDF121AE2861972600F83F93 /* Model */,
+				EDF121B02861973100F83F93 /* Controller */,
+				EDF121AF2861972B00F83F93 /* View */,
+				EDF121AD2861971500F83F93 /* App Delegate */,
+				EDF1219F2861968C00F83F93 /* Main.storyboard */,
+				EDF121A22861969000F83F93 /* Assets.xcassets */,
+				EDF121A42861969000F83F93 /* LaunchScreen.storyboard */,
+				EDF121A72861969000F83F93 /* Info.plist */,
+			);
+			path = PlayoTask;
+			sourceTree = "<group>";
+		};
+		EDF121AD2861971500F83F93 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				EDF121992861968C00F83F93 /* AppDelegate.swift */,
+				EDF1219B2861968C00F83F93 /* SceneDelegate.swift */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		EDF121AE2861972600F83F93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EDF121B22861997100F83F93 /* NewsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EDF121AF2861972B00F83F93 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EDF121B62861999000F83F93 /* NewsTableViewCell.swift */,
+				EDF121B72861999000F83F93 /* NewsTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EDF121B02861973100F83F93 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EDF121B42861997F00F83F93 /* NewsListViewController.swift */,
+				EDF121BA28619F8200F83F93 /* NewsDetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EDF121BC2861A4F600F83F93 /* Common Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDF121BD2861A50B00F83F93 /* CardView.swift */,
+				EDF121BF2861A52A00F83F93 /* Extensions.swift */,
+			);
+			path = "Common Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDF121952861968C00F83F93 /* PlayoTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF121AA2861969000F83F93 /* Build configuration list for PBXNativeTarget "PlayoTask" */;
+			buildPhases = (
+				814702EFE69672D150C32C55 /* [CP] Check Pods Manifest.lock */,
+				EDF121922861968C00F83F93 /* Sources */,
+				EDF121932861968C00F83F93 /* Frameworks */,
+				EDF121942861968C00F83F93 /* Resources */,
+				AAF72B82C643F5074E690BA9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayoTask;
+			productName = PlayoTask;
+			productReference = EDF121962861968C00F83F93 /* PlayoTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDF1218E2861968C00F83F93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					EDF121952861968C00F83F93 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = EDF121912861968C00F83F93 /* Build configuration list for PBXProject "PlayoTask" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDF1218D2861968C00F83F93;
+			productRefGroup = EDF121972861968C00F83F93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDF121952861968C00F83F93 /* PlayoTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDF121942861968C00F83F93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF121A62861969000F83F93 /* LaunchScreen.storyboard in Resources */,
+				EDF121A32861969000F83F93 /* Assets.xcassets in Resources */,
+				EDF121B92861999000F83F93 /* NewsTableViewCell.xib in Resources */,
+				EDF121A12861968C00F83F93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		814702EFE69672D150C32C55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlayoTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAF72B82C643F5074E690BA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlayoTask/Pods-PlayoTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlayoTask/Pods-PlayoTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlayoTask/Pods-PlayoTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDF121922861968C00F83F93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF121BE2861A50B00F83F93 /* CardView.swift in Sources */,
+				EDF121BB28619F8200F83F93 /* NewsDetailsViewController.swift in Sources */,
+				EDF121B32861997100F83F93 /* NewsModel.swift in Sources */,
+				EDF121C02861A52A00F83F93 /* Extensions.swift in Sources */,
+				EDF1219A2861968C00F83F93 /* AppDelegate.swift in Sources */,
+				EDF121B82861999000F83F93 /* NewsTableViewCell.swift in Sources */,
+				EDF1219C2861968C00F83F93 /* SceneDelegate.swift in Sources */,
+				EDF121B52861997F00F83F93 /* NewsListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDF1219F2861968C00F83F93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF121A02861968C00F83F93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDF121A42861969000F83F93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF121A52861969000F83F93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDF121A82861969000F83F93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDF121A92861969000F83F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDF121AB2861969000F83F93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC038FCF216A37FB3BDC39CF /* Pods-PlayoTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KQQ886464R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlayoTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxtra.PlayoTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDF121AC2861969000F83F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 007ECEA57E0D66AE7773812E /* Pods-PlayoTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KQQ886464R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlayoTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxtra.PlayoTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDF121912861968C00F83F93 /* Build configuration list for PBXProject "PlayoTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF121A82861969000F83F93 /* Debug */,
+				EDF121A92861969000F83F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF121AA2861969000F83F93 /* Build configuration list for PBXNativeTarget "PlayoTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF121AB2861969000F83F93 /* Debug */,
+				EDF121AC2861969000F83F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDF1218E2861968C00F83F93 /* Project object */;
+}
